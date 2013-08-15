@@ -4,9 +4,9 @@ module.exports = (grunt) ->
         typescript:
             compile:
                 src: ['src/**/*.ts']
-                dest: 'compiled'
+                # dest: 'compiled'
                 # src: ['src/index.ts']
-                # dest: 'compiled/src/index.js'
+                dest: 'compiled/src/index.js'
                 options:
                     module: 'commonjs'
                     target: 'es5'
