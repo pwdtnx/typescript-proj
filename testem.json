@@ -6,7 +6,8 @@
         "test/**/*.ts"
     ],
     "serve_files" : [
-        "compiled/src/**/*.js",
+        "bower_componets/jquery/jquery.js",
+        "compiled/src/index.js",
         "compiled/test/**/*.js"
     ]
 }
